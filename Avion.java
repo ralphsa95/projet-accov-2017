@@ -1,3 +1,5 @@
+/* Copyright (c) 2017 Ralph Saade CNAM-LIBAN */
+
 import java.io.*;
 import java.net.*;
 
@@ -177,13 +179,13 @@ public class Avion
 		    exit(3);
 		}
 	   
-		//cos et sin ont un paramétre en radian, dep.cap en degré nos habitudes francophone
-	    /* Angle en radian = pi * (angle en degré) / 180 
+		//cos et sin ont un paramÃ©tre en radian, dep.cap en degrÃ© nos habitudes francophone
+	    /* Angle en radian = pi * (angle en degrÃ©) / 180 
 	       Angle en radian = pi * (angle en grade) / 200 
-	       Angle en grade = 200 * (angle en degré) / 180 
+	       Angle en grade = 200 * (angle en degrÃ©) / 180 
 	       Angle en grade = 200 * (angle en radian) / pi 
-	       Angle en degré = 180 * (angle en radian) / pi 
-	       Angle en degré = 180 * (angle en grade) / 200 
+	       Angle en degrÃ© = 180 * (angle en radian) / pi 
+	       Angle en degrÃ© = 180 * (angle en grade) / 200 
 	     */
 		 cosinus = (float) cos(dep.getCap() * 2 * Math.PI / 360);
 		 sinus   = (float) sin(dep.getCap() * 2 * Math.PI / 360);
