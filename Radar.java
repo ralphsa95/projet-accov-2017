@@ -1,3 +1,5 @@
+/* Copyright (c) 2017 Ralph Saade CNAM-LIBAN */
+
 import java.util.*;
 
 public class Radar {
