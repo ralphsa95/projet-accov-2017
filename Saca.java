@@ -1,3 +1,5 @@
+/* Copyright (c) 2017 Ralph Saade CNAM-LIBAN */
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
