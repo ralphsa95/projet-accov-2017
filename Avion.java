@@ -216,40 +216,5 @@ public class Avion
 		calcul_deplacement();
 		envoyer_caracteristiques();
 	}
-	//
-/*	public static void main (String[]args)
-	{
-		try 
-		{
-			PrintStream out1;
-			PrintStream out2;
-			PrintStream out3;
-			BufferedReader in;
-			
-			
-			Avion a = new Avion();
-			Avion b = new Avion();
-			//Avion c = new Avion();
-			
-			a.ouvrir_communication();
-			b.ouvrir_communication();
-		    //c.ouvrir_communication();
-			out1 = new PrintStream(a.socket.getOutputStream());
-			out2 = new PrintStream(b.socket.getOutputStream());
-			//out3 = new PrintStream(c.socket.getOutputStream());
-			//in = new BufferedReader(new InputStreamReader(a.socket.getInputStream()));
-			
-			while(true){a.se_deplacer(out1);
-			b.se_deplacer(out2);}
-			//c.se_deplacer();
-			
-
-			
-
-	    } catch (Exception e) {
-	    	e.printStackTrace();
-	    }
-
-	}*/
 	
 }
