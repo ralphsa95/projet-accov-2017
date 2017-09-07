@@ -214,9 +214,6 @@ public class Avion
     while(true)
     {
       try {
-      
-      
-      //System.out.println("plane is listening");
 
         if(in.ready())
         {
@@ -229,7 +226,6 @@ public class Avion
           else
           {
             value = Integer.parseInt(command.substring(2, command.length()));
-            System.out.println(command);
             switch(command.charAt(0))
             {
               case 's' : 
