@@ -377,7 +377,6 @@ public class Saca extends Thread
           writer = new PrintWriter(socket.getOutputStream(), true);
           
           data = buffer.readLine().split(",");
-          writer.println("From server: Hello Plane " + data[0]);
           AvionSaca a = new AvionSaca(data[0], Integer.parseInt(data[1]), Integer.parseInt(data[2]),
                                       Integer.parseInt(data[3]), Integer.parseInt(data[4]), Integer.parseInt(data[5])); 
           planesMap.put(data[0],a);
