@@ -230,7 +230,7 @@ public class Saca extends Thread
                   {
                     case "speed" : 
                       checkPlane(controlleur, planeName, plane);
-                      outPlane.println("v-"+value);
+                      outPlane.println("s-"+value);
                       toControlClient = " Speed changed for " + planeName;
                       break;
                     case "cap" :
