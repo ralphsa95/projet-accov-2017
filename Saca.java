@@ -122,7 +122,7 @@ public class Saca extends Thread
                 newA = heighest.a + 3;
                 try {
                   outPlane = new PrintWriter(planesSocket.get(heighest.name).getOutputStream(), true);
-                  outPlane.print("a-"+newA);
+                  outPlane.println("a-"+newA);
                   System.out.println("Altitude changed for plane" + heighest.name + " to " + heighest.a + " to avoid crach");
                 } catch (IOException e) {
                   e.printStackTrace();
